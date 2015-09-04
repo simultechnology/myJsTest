@@ -14,4 +14,13 @@ describe("sample", function() {
             expect(add).to.equal(9);
         });
     });
+
+    describe("multiple()", function() {
+        it("should return the number of args  ", function(){
+            //Test Goes Here
+            var m = sample.multiple(5, 7, 8, 0, 'aa');
+
+            expect(m).to.equal(5);
+        });
+    });
 });
